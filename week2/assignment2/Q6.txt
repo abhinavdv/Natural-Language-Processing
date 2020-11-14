@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+iNLTK is a  Natural Language Toolkit for Indic Languages.
+----------------------------------------------------------------
+Its uses include:
+----------------------------------------------------------------
+API 1 - Setup the language
+This will setup the language when you use it for the first time. This will download all the necessary models required to do inference for that language.
+----------------------------------------------------------------
+API 2 - Tokenize
+Tokenizes the text passed in one of the supported languages.
+----------------------------------------------------------------
+API 3 - Predict Next ‘n’ words
+Predicts the next 'n' words given a piece of text. You can also pass randomness as a parameter, default value is 0.8
+----------------------------------------------------------------
+API 4 - Identify language
+Will identify the language of text if its in one of the supported languages.
+----------------------------------------------------------------
+API 5 - Remove foreign languages
+Every word other than that of host language will become <unk> and ▁ signifies space character.
+----------------------------------------------------------------
